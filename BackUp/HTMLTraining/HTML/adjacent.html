@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Adjacent</title>
+    <style>
+        h1 + p {
+            color: blue;
+            font-size: 18px;
+        }
+        ul.task + p {
+            color: #f0f;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        This is heading.
+    </h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <ul class="task">
+        <li>task 1</li>
+        <li>task 2</li>
+        <li>task 3</li>
+    </ul>
+    <p>This is one more paragraph.</p>
+    <p>This is also a paragraph.</p>
+</body>
+</html>

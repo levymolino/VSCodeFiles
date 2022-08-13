@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Example - html form</h2>
+
+    <form>
+    <label for="fnum">First number </label>
+    <input type="number" id="fnum" name="fnum"><br>
+    <label for="lastName">Second number: </label>
+    <input type="number" id="snum" name="snum"><br>
+    </form>
+
+    <button onclick="addition()">Add</button>
+    <button onclick="subtraction()">Sub</button>
+    <button onclick="multiplication()">Mul</button>
+    <button onclick="division()">Div</button>
+
+    <p id="result"></p>
+
+    <script src="addition.js"></script>
+</body>
+</html>
